@@ -11,7 +11,7 @@ use App\Models\fav;
 use App\Models\User;
 use App\Models\follower;
 use DB;
-class authcontroller extends Controller
+class ImageController extends Controller
 {
     public $object;
     public $check;

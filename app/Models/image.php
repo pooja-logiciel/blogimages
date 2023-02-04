@@ -15,11 +15,7 @@ class image extends Model
     public function User(){
         return $this->belongsTo(User::class);
     }
-
-    public function comment(){
-        return $this->hasMany(comment::class);
-    }
-
+    
     public function fav(){
         return $this->hasMany(fav::class);
     }
